@@ -1,0 +1,289 @@
+h1 {
+    text-align: center;
+    font-style: initial;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    box-sizing: border-box;
+    margin-bottom: 5%;
+    font-size: 50px;
+    color: lightseagreen;
+}
+
+
+/*#pad-1 {
+    padding: 1rem;
+    -webkit-box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.75);
+}
+*/
+
+body {
+    text-align: justify;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url("https://images.unsplash.com/photo-1579008577893-3d57258d698b?ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100%;
+}
+
+@media(min-width: 992px) {
+    .large_devices {
+        font-size: 30px;
+        display: inline-flex;
+    }
+    .box1 {
+        font-size: 20px;
+        box-sizing: border-box;
+        width: 33.0%;
+        background: gray;
+        position: relative;
+        clear: right;
+        color: black;
+        border: 2px solid black;
+        margin: 1%;
+        padding-left: 1%;
+        padding-bottom: 1%;
+        padding-right: 1%;
+    }
+    .box1 .content1 {
+        box-sizing: border-box;
+        background: red;
+        position: absolute;
+        right: 0%;
+        top: 0%;
+        border: 2px solid black;
+        border-right: 0px;
+        padding-left: 1%;
+        padding-right: 1%;
+        border-top: 0px;
+    }
+    .box2 {
+        box-sizing: border-box;
+        width: 33.0%;
+        background: gray;
+        position: relative;
+        clear: right;
+        color: black;
+        border: 2px solid black;
+        margin: 1%;
+        font-size: 20px;
+        padding-left: 1%;
+        padding-right: 1%;
+        padding-bottom: 1%;
+    }
+    .box2 .content2 {
+        box-sizing: border-box;
+        color: white;
+        background: #12F577;
+        position: absolute;
+        right: 0%;
+        top: 0%;
+        border: 2px solid black;
+        padding-left: 1%;
+        border-right: 0px;
+        border-top: 0px;
+        padding-right: 1%;
+    }
+    .box3 {
+        padding-left: 1%;
+        padding-right: 1%;
+        box-sizing: border-box;
+        width: 33.0%;
+        background: gray;
+        position: relative;
+        clear: right;
+        color: black;
+        border: 2px solid black;
+        font-size: 20px;
+        padding-bottom: 1%;
+        margin: 1%;
+    }
+    .box3 .content3 {
+        box-sizing: border-box;
+        background: #D707FF;
+        position: absolute;
+        right: 0%;
+        top: 0%;
+        border: 2px solid black;
+        border-right: 0px;
+        border-top: 0px;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+}
+
+@media(min-width: 768px) and (max-width: 991px) {
+    .large_devices {
+        font-size: 30px;
+        display: table;
+        clear: both;
+    }
+    .box1 {
+        float: left;
+        font-size: 20px;
+        padding-left: 1%;
+        padding-right: 1%;
+        box-sizing: border-box;
+        width: 48.0%;
+        background: gray;
+        position: relative;
+        clear: right;
+        padding-bottom: 1%;
+        color: black;
+        border: 2px solid black;
+        margin: 1%;
+    }
+    .box1 .content1 {
+        box-sizing: border-box;
+        background: red;
+        position: absolute;
+        right: 0%;
+        top: 0%;
+        border: 2px solid black;
+        border-right: 0px;
+        padding-left: 1%;
+        padding-right: 1%;
+        border-top: 0px;
+    }
+    .box2 {
+        padding-bottom: 1%;
+        padding-left: 1%;
+        padding-right: 1%;
+        float: left;
+        box-sizing: border-box;
+        width: 48.0%;
+        background: gray;
+        position: relative;
+        clear: right;
+        color: black;
+        border: 2px solid black;
+        margin: 1%;
+        font-size: 20px;
+    }
+    .box2 .content2 {
+        box-sizing: border-box;
+        color: white;
+        background: #12F577;
+        position: absolute;
+        right: 0%;
+        top: 0%;
+        border: 2px solid black;
+        padding-left: 1%;
+        border-right: 0px;
+        border-top: 0px;
+        padding-right: 1%;
+    }
+    .box3 {
+        padding-left: 1%;
+        padding-right: 1%;
+        padding-bottom: 1%;
+        clear: both;
+        float: left;
+        box-sizing: border-box;
+        width: 98.0%;
+        background: gray;
+        position: relative;
+        color: black;
+        border: 2px solid black;
+        font-size: 20px;
+        margin: 1%;
+    }
+    .box3 .content3 {
+        box-sizing: border-box;
+        background: #D707FF;
+        position: absolute;
+        right: 0%;
+        top: 0%;
+        border: 2px solid black;
+        border-right: 0px;
+        border-top: 0px;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+}
+
+@media(max-width:767px) {
+    .large_devices {
+        font-size: 30px;
+    }
+    .box1 {
+        font-size: 20px;
+        box-sizing: border-box;
+        width: 98.0%;
+        background: gray;
+        position: relative;
+        clear: right;
+        color: black;
+        border: 2px solid black;
+        margin: 1%;
+        padding-left: 1%;
+        padding-bottom: 1%;
+        padding-right: 1%;
+    }
+    .box1 .content1 {
+        box-sizing: border-box;
+        background: red;
+        position: absolute;
+        right: 0%;
+        top: 0%;
+        border: 2px solid black;
+        border-right: 0px;
+        padding-left: 1%;
+        padding-right: 1%;
+        border-top: 0px;
+    }
+    .box2 {
+        box-sizing: border-box;
+        width: 98.0%;
+        background: gray;
+        position: relative;
+        clear: right;
+        color: black;
+        border: 2px solid black;
+        margin: 1%;
+        font-size: 20px;
+        padding-left: 1%;
+        padding-right: 1%;
+        padding-bottom: 1%;
+    }
+    .box2 .content2 {
+        box-sizing: border-box;
+        color: white;
+        background: #12F577;
+        position: absolute;
+        right: 0%;
+        top: 0%;
+        border: 2px solid black;
+        padding-left: 1%;
+        border-right: 0px;
+        border-top: 0px;
+        padding-right: 1%;
+    }
+    .box3 {
+        padding-left: 1%;
+        padding-right: 1%;
+        box-sizing: border-box;
+        width: 98.0%;
+        background: gray;
+        position: relative;
+        clear: right;
+        color: black;
+        border: 2px solid black;
+        font-size: 20px;
+        padding-bottom: 1%;
+        margin: 1%;
+    }
+    .box3 .content3 {
+        box-sizing: border-box;
+        background: #D707FF;
+        position: absolute;
+        right: 0%;
+        top: 0%;
+        border: 2px solid black;
+        border-right: 0px;
+        border-top: 0px;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+}
